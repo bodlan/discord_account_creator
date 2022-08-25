@@ -3,7 +3,7 @@ from libraries.discord import Discord
 
 
 def main():
-    logger.info("Initiating Workflow")
+    print("Initiating Workflow")
     try:
         email = input("Enter email:")
         username = input("Enter username:")
